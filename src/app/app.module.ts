@@ -9,7 +9,7 @@ import {StatusBar} from '@ionic-native/status-bar/ngx';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {TabsComponent} from "./component/tabs/tabs.component";
-import {HomeComponent} from "./component/home/home.component";
+import {HomeComponent} from "./pages/home/home.component";
 import {ToolbarComponent} from "./component/toolbar/toolbar.component";
 
 @NgModule({
