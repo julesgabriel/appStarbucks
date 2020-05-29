@@ -11,9 +11,12 @@ import {AppRoutingModule} from './app-routing.module';
 import {TabsComponent} from "./component/tabs/tabs.component";
 import {HomeComponent} from "./pages/home/home.component";
 import {ToolbarComponent} from "./component/toolbar/toolbar.component";
+import {CommandComponent} from "./pages/command/command.component";
+import {ProductCardCommandComponent} from "./component/product-card-command/product-card-command.component";
+import {CommandCardHistoryComponent} from "./component/command-card-history/command-card-history.component";
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent],
+    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CommandComponent, ProductCardCommandComponent, CommandCardHistoryComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [

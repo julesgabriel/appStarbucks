@@ -1,0 +1,31 @@
+ion-card{
+  width: 156px;
+  margin: 0;
+}
+
+ion-card-header{
+  --background: url('../../../assets/img/starbuck.png');
+  background-repeat:no-repeat;
+  background-position: center 10%;
+  background-size: cover;
+  height: 80px;
+}
+span{
+  color: darkgreen;
+}
+ion-card-content{
+  padding: 5px;
+}
+ion-card-title{
+  font-size: 14px;
+  margin-top: 10px;
+}
+ion-card-subtitle{
+  font-size: 10px;
+}
+
+.productConfig{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

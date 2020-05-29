@@ -1,0 +1,16 @@
+.productList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.historyList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ion-slides{
+  height: 100%;
+}
+ion-slide {
+  width: 100%;
+}
