@@ -12,6 +12,7 @@ import {TabsComponent} from "./component/tabs/tabs.component";
 import {HomeComponent} from "./pages/home/home.component";
 import {ToolbarComponent} from "./component/toolbar/toolbar.component";
 
+
 @NgModule({
     declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent],
     entryComponents: [],
