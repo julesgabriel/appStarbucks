@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Commandes</ion-title>
+    </ion-toolbar>
+    <ion-segment value="all">
+        <ion-segment-button value="En cours">
+            En cours
+        </ion-segment-button>
+        <ion-segment-button value="Historique">
+            Historique
+        </ion-segment-button>
+    </ion-segment>
+</ion-header>
+
+
+<ion-content>
+    <ion-slides [options]="slideOpts">
+        <ion-slide class="productList">
+            <app-product-card-command>
+            </app-product-card-command>
+            <app-product-card-command>
+            </app-product-card-command>
+        </ion-slide>
+        <ion-slide class="historyList">
+            <app-command-card-history></app-command-card-history>
+            <app-command-card-history></app-command-card-history>
+            <app-command-card-history></app-command-card-history>
+            <app-command-card-history></app-command-card-history>
+            <app-command-card-history></app-command-card-history>
+            <app-command-card-history></app-command-card-history>
+        </ion-slide>
+    </ion-slides>
+</ion-content>
+<p>
+    command Works !
+</p>
+
+<app-tabs></app-tabs>

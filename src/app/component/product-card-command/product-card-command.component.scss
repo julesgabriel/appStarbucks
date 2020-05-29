@@ -1,0 +1,27 @@
+ion-card{
+  width: 156px;
+  margin: 0;
+}
+
+ion-card-header{
+  --background: url('../../../assets/img/refreshaCitronSquare.png');
+  background-repeat:no-repeat;
+  background-position: center 10%;
+  background-size: cover;
+  height: 80px;
+}
+ion-card-content{
+  padding: 5px;
+}
+ion-card-title{
+  font-size: 14px;
+  margin-top: 10px;
+}
+span{
+  color: darkgreen;
+}
+.productConfig{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
