@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-accountbutton',
@@ -7,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountbuttonComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {}
 
+  favoris()
+  {
+    this.router.navigateByUrl('account/fav');
+  }
+  parametre()
+  {
+    this.router.navigateByUrl('account/para');
+  }
 }

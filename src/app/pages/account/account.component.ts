@@ -11,4 +11,8 @@ export class AccountComponent implements OnInit {
 
   ngOnInit() {}
 
+  test()
+  {
+    alert("poulet");
+  }
 }

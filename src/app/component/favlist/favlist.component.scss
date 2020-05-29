@@ -1,0 +1,48 @@
+.encadrefav{
+  width: 350px;
+  height: 120px;
+  display: flex;
+  background: white;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5) !important;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5) !important;
+  border-radius:10px!important;
+}
+
+.test{
+  margin: -44em 5% 0 3.5%;
+}
+
+img{
+  margin: 15px 10px;
+  background: #2dd36f;
+  min-width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+p{
+  font-size: 12px;
+  margin:7px 0 0 10px;
+  color: #212121;
+}
+
+.vert{
+  color:#006341 !important;
+}
+
+h4{
+  margin:7px 0 0 10px;
+  color: #212121 !important;
+}
+
+h3{
+  color: #212121 !important;
+}
+
+hr{
+  width: 280px;
+  height: 1px;
+  background: #212121;
+  margin:1em 2em;
+}
