@@ -1,3 +1,25 @@
-<p>
-  command-hist-single works!
-</p>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>retour</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="topInfos">
+    <h3><span>Courbevoie</span></h3>
+    <p><span>Date </span>: 99/56/4894 </p>
+    <p><span>produits</span></p>
+  </div>
+  <div class="productList">
+    <app-product-card-command *ngFor="let product of array"
+                              imgUrl="{{product.imgUrl}}"
+                              name="{{product.name}}"
+                              size="{{product.size}}"
+                              price="{{product.price}}"
+    >
+    </app-product-card-command>
+  </div>
+  <div class="price"> <p><span>Total </span>: 25 euros</p> </div>
+</ion-content>
+
+<app-tabs></app-tabs>
