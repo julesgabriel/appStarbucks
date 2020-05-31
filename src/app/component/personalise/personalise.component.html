@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" text="Retour">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Citron - Citron vert
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<div class="people_button tac">
+  <ion-button size="default">Jules ></ion-button>
+</div>
+
+<div class="image_container tac">
+  <img id="image" src="../../../assets/images/starbuck_citron.png" alt="Boisson au citron">
+</div>
+
+<div id="title" class="name_container tac">Refresha Citron - Citron vert</div>
+<div class="prix tac">Prix unitaire : <span id="price">6</span>$</div>
+<div class="quantity_container">
+  <ion-button (click)="presentModal()">Personaliser ></ion-button>
+  <ion-button (click)="removeQuantityDrink()" disabled={{disabled}} class="removeButton">-</ion-button>
+  <span>{{counter}}</span>
+  <ion-button (click)="addQuantityDrink()" class="addButton">+</ion-button>
+</div>
+
+
+<div class="add_container tac">
+  <ion-button expand="full" (click)="addToCart()" disabled={{disabled}}>Ajouter au panier</ion-button>
+</div>
