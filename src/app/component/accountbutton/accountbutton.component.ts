@@ -12,9 +12,9 @@ export class AccountbuttonComponent implements OnInit {
 
   ngOnInit() {}
 
-  favoris()
+  async favoris()
   {
-    this.router.navigateByUrl('account/fav');
+    await this.router.navigate(['/account/fav']);
   }
   parametre()
   {

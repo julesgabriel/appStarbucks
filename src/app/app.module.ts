@@ -22,11 +22,12 @@ import {ParabuttonComponent} from './component/parabutton/parabutton.component';
 import {AideComponent} from './pages/aide/aide.component';
 import {AidebuttonComponent} from './component/aidebutton/aidebutton.component';
 import {MethodepayeComponent} from './pages/methodepaye/methodepaye.component';
+import {BtnpayeComponent} from './component/btnpaye/btnpaye.component';
 
 @NgModule({
     declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, AccountComponent, AccounttoolbarComponent,
         AccounttoolbarComponent, AccountbuttonComponent, FavComponent, FavlistComponent, ParaComponent, ParalistComponent,
-        ParabuttonComponent, AideComponent, AideComponent, AidebuttonComponent, MethodepayeComponent],
+        ParabuttonComponent, AideComponent, AideComponent, AidebuttonComponent, MethodepayeComponent, BtnpayeComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [
