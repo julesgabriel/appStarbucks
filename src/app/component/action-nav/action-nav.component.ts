@@ -7,7 +7,10 @@ import {Component, Input, OnInit} from '@angular/core';
       '</div>',
   styleUrls: ['./action-nav.component.scss'],
 })
-export class ActionNavComponent implements OnInit {;
+export class ActionNavComponent implements OnInit {
   @Input() content:string;
 
+  constructor() { }
+
+  ngOnInit() {}
 }
