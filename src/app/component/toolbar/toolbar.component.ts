@@ -18,8 +18,7 @@ export class ToolbarComponent implements OnInit {
         if (url.includes('cart')) {
             this.titleToolBar = "Panier";
             document.getElementById('basket').style.color = "#006341"
-        }
-        else if(url.includes('contentOrder')){
+        } else if (url.includes('contentOrder')) {
             this.titleToolBar = "Contenu de la commande";
         }
     }

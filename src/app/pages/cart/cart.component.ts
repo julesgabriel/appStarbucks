@@ -8,7 +8,7 @@ import {Router} from "@angular/router";
 })
 export class CartComponent implements OnInit {
 
-    data = [
+    /*data = [
         {
             "produit": "Refresha Citron - Citron Vert",
             "prix": "6.50",
@@ -21,18 +21,20 @@ export class CartComponent implements OnInit {
             "taille": "Grande",
             "img": "../../../assets/products/refresha.jpeg"
         }
-    ]
-    dataStored : any;
+    ]*/
+    dataStored: any;
 
-    constructor(private router:Router) {}
-    ngOnInit() {
-        localStorage.setItem("produits", JSON.stringify(this.data))
-        let storesProducts = JSON.parse(localStorage.getItem("produits"));
-        console.log(storesProducts)
-        this.dataStored = storesProducts
+    constructor(private router: Router) {
     }
 
-    redirectToRoute(){
+    ngOnInit() {
+        /*localStorage.setItem("produits", JSON.stringify(this.data))
+        let storesProducts = JSON.parse(localStorage.getItem("produits"));
+        console.log(storesProducts)
+        this.dataStored = storesProducts*/
+    }
+
+    redirectToRoute() {
         this.router.navigate(['contentOrder'])
     }
 }
