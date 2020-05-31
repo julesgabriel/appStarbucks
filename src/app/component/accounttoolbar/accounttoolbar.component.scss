@@ -1,0 +1,45 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    ion-toolbar{
+      --background: #525252;
+    }
+  }
+}
+
+ion-toolbar{
+  --background: #f8f8f8;
+}
+
+body.dark {
+  /* Dark mode variables go here */
+  ion-toolbar{
+    --background: #525252;
+  }
+}
+
+.ml{
+  margin-left: 2em;
+}
+
+.m-1{
+  margin: 1em;
+}
+
+.pt-05{
+  padding-top: .5em;
+}
+
+.pl-05{
+  padding-left: .5em;
+}
+
+.fs{
+  font-size: 20px !important;
+}
+
+
+
+ion-avatar img{
+  min-width: 55px;
+  min-height: 55px;
+}
