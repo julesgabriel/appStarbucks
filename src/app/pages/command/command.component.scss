@@ -1,0 +1,30 @@
+.productList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.historyList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ion-slides{
+  height: 100%;
+}
+ion-slide {
+  width: 100%;
+  display: inline-block;
+}
+span{
+  color: darkgreen;
+}
+
+.topInfos{
+  margin-top: 0;
+}
+.price{
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  text-align: center;
+}

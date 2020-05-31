@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Commandes</ion-title>
+    </ion-toolbar>
+    <ion-segment value="all">
+        <ion-segment-button value="En cours">
+            En cours
+        </ion-segment-button>
+        <ion-segment-button value="Historique">
+            Historique
+        </ion-segment-button>
+    </ion-segment>
+</ion-header>
+
+
+<ion-content>
+    <ion-slides [options]="slideOpts">
+        <ion-slide>
+            <div class="topInfos">
+                <h3><span>Courbevoie</span></h3>
+                <p><span>Status </span>: Pret dans 5min </p>
+                <p><span>produits</span></p>
+            </div>
+            <div class="productList">
+                <app-product-card-command *ngFor="let product of array"
+                                         imgUrl="{{product.imgUrl}}"
+                                          name="{{product.name}}"
+                                          size="{{product.size}}"
+                                          price="{{product.price}}"
+                >
+                </app-product-card-command>
+            </div>
+            <div class="price"> <p><span>Total </span>: 25 euros</p> </div>
+        </ion-slide>
+        <ion-slide class="historyList">
+            <app-command-card-history *ngFor="let product of hist"
+            imgUrl="{{product.imgUrl}}"
+            name="{{product.name}}"
+            date="{{product.date}}"
+            type="{{product.type}}"
+            price="{{product.price}}"
+
+            >
+
+            </app-command-card-history>
+
+        </ion-slide>
+    </ion-slides>
+</ion-content>
+
+<app-tabs></app-tabs>
