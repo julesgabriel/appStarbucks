@@ -1,16 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-content-order',
-  templateUrl: './content-order.component.html',
-  styleUrls: ['./content-order.component.scss'],
+    selector: 'app-content-order',
+    templateUrl: './content-order.component.html',
+    styleUrls: ['./content-order.component.scss'],
 })
 export class ContentOrderComponent implements OnInit {
+    dataStored: any;
 
-  dataStored : any;
+    constructor(private router: Router) {
+    }
 
-  constructor() { }
+    ngOnInit() {
+    }
 
-  ngOnInit() {}
-
+    redirectToRoute() {
+        this.router.navigate(['thanks'])
+    }
 }

@@ -16,10 +16,11 @@ import {CardproductComponent} from "./component/cardproduct/cardproduct.componen
 import {ActionNavComponent} from "./component/action-nav/action-nav.component";
 import {ContentOrderComponent} from "./pages/content-order/content-order.component";
 import {CardPayComponent} from "./pages/card-pay/card-pay.component";
+import {ThankYouComponent} from "./pages/thank-you/thank-you.component";
 
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CartComponent, CardproductComponent, ActionNavComponent, ContentOrderComponent, CardPayComponent],
+    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CartComponent, CardproductComponent, ActionNavComponent, ThankYouComponent, ContentOrderComponent, CardPayComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [

@@ -3,6 +3,7 @@ import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
 import {CartComponent} from "./pages/cart/cart.component";
 import {ContentOrderComponent} from "./pages/content-order/content-order.component";
+import {ThankYouComponent} from "./pages/thank-you/thank-you.component";
 
 const routes: Routes = [
     {
@@ -19,8 +20,12 @@ const routes: Routes = [
         component: CartComponent
     },
     {
-        path:'contentOrder',
+        path: 'contentOrder',
         component: ContentOrderComponent
+    },
+    {
+        path: 'thanks',
+        component: ThankYouComponent
     }
 
 ];
