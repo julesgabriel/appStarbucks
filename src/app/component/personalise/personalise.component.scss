@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "Display Bold";
+    src: url("../../../assets/fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face{
+    font-family: "Display regular";
+    src:url("../../../assets/fonts/SF-Pro-Display-Regular.otf");
+}
+
+ion-back-button{
+    --color: #006341;
+}
+
+.people_button ion-button{
+    --color:white;
+    font-family: "Display regular";
+    --background: #006341;
+    --background-activated : #01472f;
+}
+
+ion-title{
+    font-family: "Display bold";
+}
+
+
+.tac{
+    text-align: center;
+}
+
+.name_container{
+    font-family: "Display bold";
+}
+
+.quantity_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.quantity_container ion-button{
+    --color:#006341;
+    --background : #ffffff;
+    --box-shadow:0px 3px 6px 0px rgba(0,0,0,0.5);
+    margin: 5px;
+    --background-activated:#d3d3d3;
+    --color-activated : white;
+}
+
+.quantity_container span{
+    margin-top:20px;
+}
+
+.add_container ion-button{
+    --background:#006341;
+    --color:#ffffff;
+    --background-activated:#01472f;
+}
+
+.prix{
+    margin:10px;
+    font-family: "Display bold";
+}

@@ -1,0 +1,12 @@
+ion-button{
+    --color:white;
+    font-family: "Display regular";
+    --background: #006341;
+    --background-activated : #01472f;
+}
+
+.container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}

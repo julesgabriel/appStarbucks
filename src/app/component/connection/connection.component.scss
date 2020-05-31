@@ -1,0 +1,55 @@
+ion-content{
+    --ion-background-color : #006341;
+}
+
+@font-face{
+    font-family: "Display Bold";
+    src: url("../../../assets/fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face{
+    font-family: "Display regular";
+    src:url("../../../assets/fonts/SF-Pro-Display-Regular.otf");
+}
+
+.logo{
+    width:100px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.title{
+    color:white;
+    font-family: "Display Bold";
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+ion-searchbar{
+    --background : white;
+    --border-radius : 5px;
+    font-family: "Display regular";
+}
+
+.infos{
+    color:white;
+    font-family: "Display regular";
+    margin-left:20px;
+    font-size: 23px;
+}
+
+ion-card{
+    --background:white;
+}
+
+ion-card-content{
+    display: flex;
+}
+
+img{
+    width:70px;
+}
+
+.card_text_container{
+    margin-left:5px;
+}
