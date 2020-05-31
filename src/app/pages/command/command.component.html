@@ -16,9 +16,12 @@
 <ion-content>
     <ion-slides [options]="slideOpts">
         <ion-slide class="productList">
-            <app-product-card-command>
-            </app-product-card-command>
-            <app-product-card-command>
+            <app-product-card-command *ngFor="let product of array"
+                                     imgUrl="{{product.imgUrl}}"
+                                      name="{{product.name}}"
+                                      size="{{product.size}}"
+                                      price="{{product.price}}"
+            >
             </app-product-card-command>
         </ion-slide>
         <ion-slide class="historyList">

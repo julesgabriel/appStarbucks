@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
 import {CommandComponent} from "./pages/command/command.component";
+import {CommandHistSingleComponent} from "./pages/command-hist-single/command-hist-single.component";
 
 const routes: Routes = [
     {
@@ -16,6 +17,10 @@ const routes: Routes = [
     {
         path: 'command',
         component: CommandComponent
+    },
+    {
+        path: 'commandHistSingle',
+        component: CommandHistSingleComponent
     },
 
 ];
