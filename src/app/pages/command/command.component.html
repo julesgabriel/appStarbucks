@@ -15,14 +15,22 @@
 
 <ion-content>
     <ion-slides [options]="slideOpts">
-        <ion-slide class="productList">
-            <app-product-card-command *ngFor="let product of array"
-                                     imgUrl="{{product.imgUrl}}"
-                                      name="{{product.name}}"
-                                      size="{{product.size}}"
-                                      price="{{product.price}}"
-            >
-            </app-product-card-command>
+        <ion-slide>
+            <div class="topInfos">
+                <h3><span>Courbevoie</span></h3>
+                <p><span>Status </span>: Pret dans 5min </p>
+                <p><span>produits</span></p>
+            </div>
+            <div class="productList">
+                <app-product-card-command *ngFor="let product of array"
+                                         imgUrl="{{product.imgUrl}}"
+                                          name="{{product.name}}"
+                                          size="{{product.size}}"
+                                          price="{{product.price}}"
+                >
+                </app-product-card-command>
+            </div>
+            <div class="price"> <p><span>Total </span>: 18 euros</p> </div>
         </ion-slide>
         <ion-slide class="historyList">
             <app-command-card-history></app-command-card-history>
