@@ -6,6 +6,8 @@ import {FavComponent} from './pages/fav/fav.component';
 import {ParaComponent} from './pages/para/para.component';
 import {AideComponent} from './pages/aide/aide.component';
 import {MethodepayeComponent} from './pages/methodepaye/methodepaye.component';
+import { ConnectionComponent } from './component/connection/connection.component';
+import { PersonaliseComponent} from './component/personalise/personalise.component';
 
 const routes: Routes = [
     {
@@ -37,7 +39,13 @@ const routes: Routes = [
         path: 'account/paiement',
         component: MethodepayeComponent
     },
-
+        path: 'connection',
+        component : ConnectionComponent
+    },
+    {
+        path: 'personalise',
+        component : PersonaliseComponent
+    }
 ];
 
 @NgModule({
