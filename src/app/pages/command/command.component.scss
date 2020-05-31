@@ -13,4 +13,18 @@ ion-slides{
 }
 ion-slide {
   width: 100%;
+  display: inline-block;
+}
+span{
+  color: darkgreen;
+}
+
+.topInfos{
+  margin-top: 0;
+}
+.price{
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
 }
