@@ -15,6 +15,7 @@ import {ConnectionComponent} from "./component/connection/connection.component";
 import {PersonaliseComponent} from "./component/personalise/personalise.component";
 import {CustomOrderComponent} from "./component/custom-order/custom-order.component";
 
+
 @NgModule({
     declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, ConnectionComponent,PersonaliseComponent,CustomOrderComponent],
     entryComponents: [],

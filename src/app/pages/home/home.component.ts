@@ -7,8 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  slideOpts = {
+    initialSlide: 0,
+    speed: 800,
+    slidesPerView: 5,
+    spaceBetween: 5,
+    loop: true,
+    swipeGesture: true
+  };
+
+  constructor() {}
 
   ngOnInit() {}
-
 }
