@@ -19,6 +19,9 @@ export class ToolbarComponent implements OnInit {
             this.titleToolBar = "Panier";
             document.getElementById('basket').style.color = "#006341"
         }
+        else if(url.includes('contentOrder')){
+            this.titleToolBar = "Contenu de la commande";
+        }
     }
 
     async redirectCart() {

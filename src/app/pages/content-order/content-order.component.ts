@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentOrderComponent implements OnInit {
 
+  dataStored : any;
+
   constructor() { }
 
   ngOnInit() {}

@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
     selector: 'app-cart',
@@ -23,10 +24,7 @@ export class CartComponent implements OnInit {
     ]
     dataStored : any;
 
-    constructor() {
-
-    }
-
+    constructor(private router:Router) {}
     ngOnInit() {
         localStorage.setItem("produits", JSON.stringify(this.data))
         let storesProducts = JSON.parse(localStorage.getItem("produits"));
@@ -35,6 +33,6 @@ export class CartComponent implements OnInit {
     }
 
     redirectToRoute(){
-
+        this.router.navigate(['contentOrder'])
     }
 }

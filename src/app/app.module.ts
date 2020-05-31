@@ -14,10 +14,12 @@ import {ToolbarComponent} from "./component/toolbar/toolbar.component";
 import {CartComponent} from "./pages/cart/cart.component";
 import {CardproductComponent} from "./component/cardproduct/cardproduct.component";
 import {ActionNavComponent} from "./component/action-nav/action-nav.component";
+import {ContentOrderComponent} from "./pages/content-order/content-order.component";
+import {CardPayComponent} from "./pages/card-pay/card-pay.component";
 
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CartComponent, CardproductComponent, ActionNavComponent],
+    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CartComponent, CardproductComponent, ActionNavComponent, ContentOrderComponent, CardPayComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [
