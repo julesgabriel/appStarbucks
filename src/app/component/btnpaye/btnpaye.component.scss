@@ -1,0 +1,32 @@
+.btnpaye{
+  display: flex;
+  margin:13px 0;
+}
+
+ion-button{
+  width: 125px;
+  height: 80px;
+  --background: none;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5) !important;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5) !important;
+  border-radius:10px!important;
+  border: none;
+  --background-activated: rgba(0, 99, 65, 0.68) !important;
+}
+
+img{
+  margin:17px 26px;
+  min-width: 73px;
+  height: 47px;
+}
+
+h3{
+  font-size: 21px;
+  margin: 31px 0 0 25px;
+}
+
+.mt--{
+  margin-top: -47em;
+  margin-left:1.5em ;
+}
