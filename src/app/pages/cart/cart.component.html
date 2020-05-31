@@ -1,0 +1,11 @@
+<app-toolbar></app-toolbar>
+
+<ion-content>
+    <div class="contentCart">
+        <app-cardproduct *ngFor="let product of dataStored" img="{{product.img}}" size="{{product.taille}}" name="{{product.produit}}" price="{{product.prix}}">
+        </app-cardproduct>
+    </div>
+
+</ion-content>
+
+<app-action-nav content="Commander" (click)="redirectToRoute()"></app-action-nav>
