@@ -1,0 +1,18 @@
+.productList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+span{
+  color: darkgreen;
+}
+.topInfos{
+  margin-top: 0;
+  text-align: center;
+}
+.price{
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  text-align: center;
+}

@@ -14,9 +14,10 @@ import {ToolbarComponent} from "./component/toolbar/toolbar.component";
 import {CommandComponent} from "./pages/command/command.component";
 import {ProductCardCommandComponent} from "./component/product-card-command/product-card-command.component";
 import {CommandCardHistoryComponent} from "./component/command-card-history/command-card-history.component";
+import {CommandHistSingleComponent} from "./pages/command-hist-single/command-hist-single.component";
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CommandComponent, ProductCardCommandComponent, CommandCardHistoryComponent],
+    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CommandComponent, ProductCardCommandComponent, CommandCardHistoryComponent, CommandHistSingleComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [
