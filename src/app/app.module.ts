@@ -30,7 +30,7 @@ import {BtnpayeComponent} from './component/btnpaye/btnpaye.component';
 @NgModule({
     declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, ConnectionComponent,PersonaliseComponent,CustomOrderComponent, AccountComponent, AccounttoolbarComponent,
         AccounttoolbarComponent, AccountbuttonComponent, FavComponent, FavlistComponent, ParaComponent, ParalistComponent,
-        ParabuttonComponent, AideComponent, AideComponent, AidebuttonComponent, MethodepayeComponent, BtnpayeComponent]],
+        ParabuttonComponent, AideComponent, AideComponent, AidebuttonComponent, MethodepayeComponent, BtnpayeComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [
