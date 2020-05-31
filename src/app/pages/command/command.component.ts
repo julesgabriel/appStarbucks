@@ -24,6 +24,22 @@ export class CommandComponent implements OnInit {
         price : 12,
     }
   ]
+
+    hist: histCard[] = [
+        {
+            imgUrl : '../../../assets/img/refreshaCitronSquare.png',
+            name : 'Refresha',
+            date : '20/05/1957',
+            type : 'A Emporter',
+            price : 25,
+        }  ,    {
+            imgUrl : '../../../assets/img/refreshaCitronSquare.png',
+            name : 'Cafe',
+            date : '99/56/4894',
+            type : 'Sur Place',
+            price : 99.99,
+        }
+    ]
   constructor() { }
 
   ngOnInit() {}
@@ -35,4 +51,12 @@ interface products {
   name: string,
   size: string,
   price: number
+}
+
+interface histCard {
+    imgUrl: string,
+    name: string,
+    date: string,
+    type: string,
+    price: number
 }

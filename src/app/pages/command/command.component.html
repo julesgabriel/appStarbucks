@@ -33,17 +33,19 @@
             <div class="price"> <p><span>Total </span>: 18 euros</p> </div>
         </ion-slide>
         <ion-slide class="historyList">
-            <app-command-card-history></app-command-card-history>
-            <app-command-card-history></app-command-card-history>
-            <app-command-card-history></app-command-card-history>
-            <app-command-card-history></app-command-card-history>
-            <app-command-card-history></app-command-card-history>
-            <app-command-card-history></app-command-card-history>
+            <app-command-card-history *ngFor="let product of hist"
+            imgUrl="{{product.imgUrl}}"
+            name="{{product.name}}"
+            date="{{product.date}}"
+            type="{{product.type}}"
+            price="{{product.price}}"
+
+            >
+
+            </app-command-card-history>
+
         </ion-slide>
     </ion-slides>
 </ion-content>
-<p>
-    command Works !
-</p>
 
 <app-tabs></app-tabs>
