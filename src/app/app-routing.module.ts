@@ -1,6 +1,9 @@
 import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
+import {CartComponent} from "./pages/cart/cart.component";
+import {ContentOrderComponent} from "./pages/content-order/content-order.component";
+import {ThankYouComponent} from "./pages/thank-you/thank-you.component";
 import {CommandComponent} from "./pages/command/command.component";
 import {CommandHistSingleComponent} from "./pages/command-hist-single/command-hist-single.component";
 import {AccountComponent} from './pages/account/account.component';
@@ -22,13 +25,26 @@ const routes: Routes = [
         component: HomeComponent
     },
     {
+        path: 'cart',
+        component: CartComponent
+    },
+    {
+        path: 'contentOrder',
+        component: ContentOrderComponent
+    },
+    {
+        path: 'thanks',
+        component: ThankYouComponent
+    },
+    {
         path: 'command',
         component: CommandComponent
     },
     {
         path: 'commandHistSingle',
         component: CommandHistSingleComponent
-    },{
+    },
+    {
         path: 'account',
         component: AccountComponent
     },
@@ -47,7 +63,8 @@ const routes: Routes = [
     {
         path: 'account/paiement',
         component: MethodepayeComponent
-    },{
+    },
+    {
         path: 'connection',
         component : ConnectionComponent
     },

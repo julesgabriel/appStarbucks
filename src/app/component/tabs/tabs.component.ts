@@ -15,7 +15,7 @@ export class TabsComponent implements OnInit {
         let url = window.location.href;
         if (url.includes("home")) {
             for (let i = 0; i < tabsHome.length; i++) {
-                tabsHome[i].style.color = "#006341"
+                //tabsHome[i].style.color = "#006341"
             }
         }
     }

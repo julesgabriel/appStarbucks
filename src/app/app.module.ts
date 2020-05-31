@@ -8,6 +8,12 @@ import {StatusBar} from '@ionic-native/status-bar/ngx';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {TabsComponent} from "./component/tabs/tabs.component";
+import {CartComponent} from "./pages/cart/cart.component";
+import {CardproductComponent} from "./component/cardproduct/cardproduct.component";
+import {ActionNavComponent} from "./component/action-nav/action-nav.component";
+import {ContentOrderComponent} from "./pages/content-order/content-order.component";
+import {CardPayComponent} from "./pages/card-pay/card-pay.component";
+import {ThankYouComponent} from "./pages/thank-you/thank-you.component";
 import {CommandComponent} from "./pages/command/command.component";
 import {ProductCardCommandComponent} from "./component/product-card-command/product-card-command.component";
 import {CommandCardHistoryComponent} from "./component/command-card-history/command-card-history.component";
@@ -32,7 +38,7 @@ import {BtnpayeComponent} from './component/btnpaye/btnpaye.component';
 
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, 
+    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, CartComponent, CardproductComponent, ActionNavComponent, ThankYouComponent, ContentOrderComponent, CardPayComponent, 
                    ConnectionComponent,PersonaliseComponent,CustomOrderComponent, 
                    AccountComponent, AccounttoolbarComponent, AccountbuttonComponent, FavComponent, FavlistComponent, ParaComponent, ParalistComponent, ParabuttonComponent, AideComponent, AidebuttonComponent, MethodepayeComponent, BtnpayeComponent, 
                    CommandComponent, ProductCardCommandComponent, CommandCardHistoryComponent, CommandHistSingleComponent],
