@@ -20,4 +20,8 @@ export class AccountbuttonComponent implements OnInit {
   {
     this.router.navigateByUrl('account/para');
   }
+  aide()
+  {
+    this.router.navigateByUrl('account/aide');
+  }
 }

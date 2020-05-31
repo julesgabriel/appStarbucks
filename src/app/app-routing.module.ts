@@ -4,6 +4,8 @@ import {HomeComponent} from "./pages/home/home.component";
 import {AccountComponent} from './pages/account/account.component';
 import {FavComponent} from './pages/fav/fav.component';
 import {ParaComponent} from './pages/para/para.component';
+import {AideComponent} from './pages/aide/aide.component';
+import {MethodepayeComponent} from './pages/methodepaye/methodepaye.component';
 
 const routes: Routes = [
     {
@@ -26,6 +28,14 @@ const routes: Routes = [
     {
         path: 'account/para',
         component: ParaComponent
+    },
+    {
+        path: 'account/aide',
+        component: AideComponent
+    },
+    {
+        path: 'account/paiement',
+        component: MethodepayeComponent
     },
 
 ];

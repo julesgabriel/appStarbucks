@@ -19,9 +19,14 @@ import {FavlistComponent} from './component/favlist/favlist.component';
 import {ParaComponent} from './pages/para/para.component';
 import {ParalistComponent} from './component/paralist/paralist.component';
 import {ParabuttonComponent} from './component/parabutton/parabutton.component';
+import {AideComponent} from './pages/aide/aide.component';
+import {AidebuttonComponent} from './component/aidebutton/aidebutton.component';
+import {MethodepayeComponent} from './pages/methodepaye/methodepaye.component';
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, AccountComponent, AccounttoolbarComponent, AccounttoolbarComponent, AccountbuttonComponent, FavComponent, FavlistComponent, ParaComponent, ParalistComponent, ParabuttonComponent],
+    declarations: [AppComponent, HomeComponent, TabsComponent, ToolbarComponent, AccountComponent, AccounttoolbarComponent,
+        AccounttoolbarComponent, AccountbuttonComponent, FavComponent, FavlistComponent, ParaComponent, ParalistComponent,
+        ParabuttonComponent, AideComponent, AideComponent, AidebuttonComponent, MethodepayeComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
     providers: [
